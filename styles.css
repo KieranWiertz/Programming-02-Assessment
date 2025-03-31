@@ -101,7 +101,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("../assets/login_assets/loginBG.jpg") no-repeat;
+  background-image: url(assets/login_assets/loginBG.jpg);
   background-size: cover;
   background-position: center;
 }
