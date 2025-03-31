@@ -286,13 +286,19 @@ footer {
 
 /*Media Styling*/
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 986px) {
   .hero-container {
     grid-template-columns: 1fr;
   }
+}
 
+@media screen and (max-width: 875px) {
   .footer-container {
     height: 50vh;
+  }
+
+  .footer-3 {
+    display: none;
   }
 
   .footer-newsletter {
@@ -301,12 +307,6 @@ footer {
 }
 
 @media screen and (max-width: 850px) {
-  .footer-container {
-    padding-top: 2rem;
-  }
-  .footer-3 {
-    display: none;
-  }
   .footer-newsletter {
     margin-top: 2rem;
   }
