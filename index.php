@@ -16,9 +16,9 @@
         />
       </div>
       <div class="nav-items">
-        <a href="vinyl-page.html">Vinyl</a>
-        <a href="cd-page.html">CD</a>
-        <a href="login-page.html">Login</a>
+        <a href="vinyl-page.php">Vinyl</a>
+        <a href="cd-page.php">CD</a>
+        <a href="login-page.php">Login</a>
       </div>
     </nav>
     <section class="hero">
@@ -29,7 +29,7 @@
             The home of signed, exclusive and limited edition releases. Shop
             vinyl, CDs and more.
           </p>
-          <button>Sign Up</button>
+          <a href="signup-page.php"><button>Sign Up</button></a>
         </div>
         <div class="colum-right">
           <img
