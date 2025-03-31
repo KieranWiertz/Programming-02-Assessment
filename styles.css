@@ -6,6 +6,8 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+/*Nav Bar Styling*/
+
 nav {
   height: 80px;
   background: #787878;
@@ -36,6 +38,8 @@ nav a:hover {
 .hero {
   background: #e2e2e2;
 }
+
+/*Hero Page Styling*/
 
 .hero-container {
   display: grid;
@@ -89,6 +93,8 @@ button:hover {
 .hero-image {
   height: 75%;
 }
+
+/*Login and Signup Page Styling*/
 
 .login-body {
   display: flex;
@@ -199,8 +205,109 @@ button:hover {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
+/*Footer Styling*/
+
+footer {
+  background-color: #787878;
+  padding: 4rem 0 2rem 0;
+}
+
+.footer-container {
+  width: 80%;
+  height: 40vh;
+  background-color: #787878;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading h2 {
+  margin-bottom: 2rem;
+}
+
+.footer-heading a {
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading h3 {
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+  color: #fff;
+}
+
+.footer-newsletter h2 {
+  margin-bottom: 2rem;
+}
+
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+  color: #b1b1b1;
+}
+
+#footer-newsletter-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #000;
+  outline: none;
+  border: none;
+  color: #e2e2e2;
+  font-size: 1rem;
+}
+
+#footer-newsletter-btn:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+}
+
+/*Media Styling*/
+
+@media screen and (max-width: 875px) {
   .hero-container {
     grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    height: 50vh;
+  }
+
+  .footer-newsletter {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer-container {
+    padding-top: 2rem;
+  }
+  .footer-3 {
+    display: none;
+  }
+  .footer-newsletter {
+    margin-top: 2rem;
   }
 }
