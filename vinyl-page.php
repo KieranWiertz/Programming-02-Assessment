@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vinyl Records</title>
-    <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
-  </head>
-  <body>
+<?php include_once 'header.php'; ?>
+
     <div class="product-wrapper">
       <div class="product-page-intro">
         <h1>Our Collection of<br>Vinyl Records</h1>
@@ -87,5 +80,5 @@
       </iframe>
       
     </div>
-  </body>
-</html>
+
+    <?php include_once 'footer.php'; ?>
