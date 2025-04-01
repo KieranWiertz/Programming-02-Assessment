@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <title>Record Store UK</title>
   </head>
   <body>
     <nav>
       <div class="logo">
-        <img
+        <a href="index.php"><img
           src="assets/index_assets/recordstorelogo.png"
           alt="Record Store UK"
           width="150px"
-        />
+        /></a>
       </div>
       <div class="nav-items">
         <a href="vinyl-page.php">Vinyl</a>
@@ -30,13 +30,6 @@
             vinyl, CDs and more.
           </p>
           <a href="signup-page.php"><button>Sign Up</button></a>
-        </div>
-        <div class="colum-right">
-          <img
-            src="assets/index_assets/rsd_logo.png"
-            alt="RSD Logo"
-            class="hero-image"
-          />
         </div>
       </div>
     </section>

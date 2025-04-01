@@ -35,11 +35,11 @@ nav a:hover {
   color: #fff;
 }
 
-.hero {
-  background: #e2e2e2;
-}
-
 /*Hero Page Styling*/
+
+.hero {
+  background: url(assets/index_assets/VinylBG.png);
+}
 
 .hero-container {
   display: grid;
@@ -53,7 +53,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: #000;
+  color: #fff;
   padding: 0rem 2rem;
 }
 
@@ -88,10 +88,6 @@ button:hover {
   justify-content: center;
   align-items: center;
   padding: 0rem 2rem;
-}
-
-.hero-image {
-  height: 75%;
 }
 
 /*Login and Signup Page Styling*/
@@ -205,6 +201,29 @@ button:hover {
   text-decoration: underline;
 }
 
+/* Product Page Styling */
+
+.product-page-intro {
+  text-align: center;
+}
+
+.product-page-vid {
+  display: block;
+  margin: 0 auto;
+}
+
+.video-description {
+  text-align: center;
+}
+
+.product-wrapper {
+  background: #e2e2e2;
+}
+
+.product-page-vid {
+  margin: 3% auto 3%;
+}
+
 /*Product Card Styling*/
 
 .Best-Seller-Title {
@@ -220,7 +239,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  margin: 6% auto 0;
+  margin: 3% auto 3%;
 }
 
 .product-card {
