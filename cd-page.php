@@ -12,7 +12,7 @@
             <img src="assets/product_assets/GDragonCD.jpg" alt="G Dragon CD" />
               <div class="product-card-overlay">              
                 <button class="add-to-cart-btn">Add to Cart</button>
-                <button class="view-detail-btn">View Details</button>
+
               </div>
             </div>
             <div class="product-card-info">
@@ -27,7 +27,7 @@
             <img src="assets/product_assets/HadesTownCD.jpg" alt="Hades Town CD" />
               <div class="product-card-overlay">
                 <button class="add-to-cart-btn">Add to Cart</button>
-                <button class="view-detail-btn">View Details</button>
+
               </div>
             </div>
             <div class="product-card-info">
@@ -42,7 +42,7 @@
               <img src="assets/product_assets/JeffBuckleyCD.jpg" alt="Jeff Buckley CD" />
               <div class="product-card-overlay">
                 <button class="add-to-cart-btn">Add to Cart</button>
-                <button class="view-detail-btn">View Details</button>
+
               </div>
             </div>
             <div class="product-card-info">
@@ -57,7 +57,7 @@
               <img src="assets/product_assets/ParcelsCD.jpg" alt="Parcels CD" />
               <div class="product-card-overlay">
                 <button class="add-to-cart-btn">Add to Cart</button>
-                <button class="view-detail-btn">View Details</button>
+
               </div>
             </div>
             <div class="product-card-info">

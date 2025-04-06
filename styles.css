@@ -295,8 +295,7 @@ button:hover {
   opacity: 1;
 }
 
-.add-to-cart-btn,
-.view-detail-btn {
+.add-to-cart-btn {
   background-color: #fff;
   columns: #000;
   padding: 10px 15px;
@@ -310,8 +309,7 @@ button:hover {
   margin-bottom: 10px;
 }
 
-.add-to-cart-btn:hover,
-.view-detail-btn:hover {
+.add-to-cart-btn:hover {
   background-color: #3babd7;
   color: #000;
   border: none;

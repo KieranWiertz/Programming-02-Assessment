@@ -5,7 +5,7 @@
         <div class="colum-left">
           <h1>Your local online Recordstore</h1>
           <p>
-            The home of signed, exclusive and limited edition releases. Shop
+            The home of signed, exclusive and limited edition releases.<br> Shop
             vinyl, CDs and more.
           </p>
           <a href="signup-page.php"><button>Sign Up</button></a>
@@ -21,7 +21,7 @@
             <img src="assets/product_assets/GDragonCD.jpg" alt="G-Dragon CD" />
             <div class="product-card-overlay">
               <button class="add-to-cart-btn">Add to Cart</button>
-              <button class="view-detail-btn">View Details</button>
+
             </div>
           </div>
           <div class="product-card-info">
@@ -36,7 +36,7 @@
             <img src="assets/product_assets/TomMischVinyl.jpg" alt="Tom Misch Vinyl" />
             <div class="product-card-overlay">
               <button class="add-to-cart-btn">Add to Cart</button>
-              <button class="view-detail-btn">View Details</button>
+
             </div>
           </div>
           <div class="product-card-info">
@@ -51,7 +51,7 @@
             <img src="assets/product_assets/JeffBuckleyCD.jpg" alt="Jeff Buckley CD" />
             <div class="product-card-overlay">
               <button class="add-to-cart-btn">Add to Cart</button>
-              <button class="view-detail-btn">View Details</button>
+
             </div>
           </div>
           <div class="product-card-info">
@@ -66,7 +66,7 @@
             <img src="assets/product_assets/TalkingHeadsVinyl.jpg" alt="Talking Heads Vinyl" />
             <div class="product-card-overlay">
               <button class="add-to-cart-btn">Add to Cart</button>
-              <button class="view-detail-btn">View Details</button>
+
             </div>
           </div>
           <div class="product-card-info">

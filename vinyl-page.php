@@ -12,7 +12,7 @@
             <img src="assets/product_assets/TomMischVinyl.jpg" alt="Tom Misch Vinyl" />
               <div class="product-card-overlay">              
                 <button class="add-to-cart-btn">Add to Cart</button>
-                <button class="view-detail-btn">View Details</button>
+
               </div>
             </div>
             <div class="product-card-info">
@@ -27,7 +27,7 @@
             <img src="assets/product_assets/TalkingHeadsVinyl.jpg" alt="Talking Heads Vinyl" />
               <div class="product-card-overlay">
                 <button class="add-to-cart-btn">Add to Cart</button>
-                <button class="view-detail-btn">View Details</button>
+
               </div>
             </div>
             <div class="product-card-info">
@@ -42,7 +42,7 @@
               <img src="assets/product_assets/The1975Vinyl.jpg" alt="The 1975 Vinyl" />
               <div class="product-card-overlay">
                 <button class="add-to-cart-btn">Add to Cart</button>
-                <button class="view-detail-btn">View Details</button>
+
               </div>
             </div>
             <div class="product-card-info">
@@ -57,7 +57,7 @@
               <img src="assets/product_assets/TheStrokeVinyl.jpg" alt="The Strokes Vinyl" />
               <div class="product-card-overlay">
                 <button class="add-to-cart-btn">Add to Cart</button>
-                <button class="view-detail-btn">View Details</button>
+
               </div>
             </div>
             <div class="product-card-info">

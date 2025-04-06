@@ -18,6 +18,6 @@
       <div class="nav-items">
         <a href="vinyl-page.php">Vinyl</a>
         <a href="cd-page.php">CD</a>
-        <a href="login-page.php">Login</a>
+        <a href="login-page.php">Login/Sign Up</a>
       </div>
     </nav>
