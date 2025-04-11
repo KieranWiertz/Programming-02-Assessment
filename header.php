@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,9 +20,17 @@
           width="150px"
         /></a>
       </div>
-      <div class="nav-items">
+      <class="nav-items">
         <a href="vinyl-page.php">Vinyl</a>
         <a href="cd-page.php">CD</a>
-        <a href="login-page.php">Login/Sign Up</a>
+        <?php
+          if (isset($_SESSION["useruid"])) {
+            echo "<a href='cd-page.php'>My Profile</a>";
+            echo "<a href='includes/logout.inc.php'>Logout</a>";
+          }
+          else {
+            echo "<a href='login-page.php'>Login/Sign Up</a>";
+          }
+        ?>
       </div>
     </nav>

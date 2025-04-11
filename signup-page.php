@@ -29,6 +29,31 @@
 
 
         </form>
+          <?php
+          if (isset($_GET["error"])) {
+            if ($_GET["error"] == "emptyinput") {
+              echo "<p>Make sure to fill in all fields</p>";
+            }
+            else if ($_GET["error"] == "invaliduid") {
+              echo "<p>Make sure to choose a proper username!</p>";
+            }
+            else if ($_GET["error"] == "invalidemail") {
+              echo "<p>Make sure to choose a proper E-Mail!</p>";
+            }
+            else if ($_GET["error"] == "passwordsdontmatch") {
+              echo "<p>Make sure your passwords match!</p>";
+            }
+            else if ($_GET["error"] == "stmtfailed") {
+              echo "<p>Something went wrong, try again!</p>";
+            }
+            else if ($_GET["error"] == "usernametaken") {
+              echo "<p>That username already exists, try again!</p>";
+            }
+            else if ($_GET["error"] == "none") {
+              echo "<p>You have signed up, Welcome!</p>";
+            }
+          }
+          ?>
       </div>
     </div>
 

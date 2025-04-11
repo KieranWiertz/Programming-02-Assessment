@@ -5,7 +5,7 @@
         <h1>Login</h1>
         <form action="includes/login.inc.php" method="post">
           <div class="input-box">
-            <input type="text" name="name" placeholder="Username/E-mail" required />
+            <input type="text" name="uid" placeholder="Username/E-mail" required />
             <i class="bx bxs-user"></i>
           </div>
           <div class="input-box">
@@ -23,6 +23,16 @@
             <p>Don't have an account? <a href="signup-page.php">Register</a></p>
           </div>
         </form>
+        <?php
+          if (isset($_GET["error"])) {
+            if ($_GET["error"] == "emptyinput") {
+              echo "<p>Make sure to fill in all fields</p>";
+            }
+            else if ($_GET["error"] == "wronglogin") {
+              echo "<p>Incorrect login details!</p>";
+            }
+          }
+          ?>
       </div>
     </div>
 <?php include_once 'footer.php'; ?>
