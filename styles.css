@@ -92,7 +92,8 @@ button:hover {
 
 /*Login and Signup Page Styling*/
 
-.login-body {
+.login-body,
+.signup-body {
   display: flex;
   justify-content: center;
   align-items: center;
