@@ -25,7 +25,7 @@
         <a href="cd-page.php">CD</a>
         <?php
           if (isset($_SESSION["useruid"])) {
-            echo "<a href='myprofile.php'>My Profile</a>";
+            echo "<a href='cart.php'>Cart</a>";
             echo "<a href='includes/logout.inc.php'>Logout</a>";
           }
           else {
