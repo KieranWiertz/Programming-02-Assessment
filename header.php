@@ -34,3 +34,5 @@
         ?>
       </div>
     </nav>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class='bx bx-up-arrow-alt'></i></button>
