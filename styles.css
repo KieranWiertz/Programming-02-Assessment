@@ -202,6 +202,11 @@ button:hover {
   text-decoration: underline;
 }
 
+.cat-image {
+  display: flex;
+  justify-content: center;
+}
+
 /* Product Page Styling */
 
 .product-page-intro {
