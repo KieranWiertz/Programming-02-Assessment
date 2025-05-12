@@ -50,7 +50,12 @@
            }  
       }  
  }  
-  ?>  
+ if (isset($_GET["action"]) && $_GET["action"] == "clear") {
+    unset($_SESSION["shopping_cart"]);
+    echo '<script>alert("Thank you for your purchase!")</script>';
+    echo '<script>window.location="cart.php"</script>';
+}
+?>  
 <!DOCTYPE html>  
  <html>  
       <head>  
@@ -59,8 +64,8 @@
            <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
       </head> 
-    <body>  
-<div style="clear:both"></div>  
+      <body>  
+          <div style="clear:both"></div>  
                 <br />  
                 <h3 align="center">Your Cart</h3> 
                 <br> 
@@ -103,6 +108,9 @@
                 </div>  
            </div>  
            <br />  
+           <form method="post" action="cart.php?action=clear">
+                <input type="submit" name="clear_cart" class="btn btn-danger" value="Buy Now!" />
+           </form>
       </body>  
  </html>
 <?php include_once 'footer.php'; ?>
