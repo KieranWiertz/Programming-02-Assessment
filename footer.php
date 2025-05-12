@@ -8,8 +8,8 @@
        </div>
        <div class="footer-heading footer-2">
           <h2>Categories</h2>
-          <a href="vinyl-page.php">Vinyl</a>
-          <a href="cd-page.php">CD</a>
+          <a href="products.php">Products</a>
+          <a href="cart.php">Cart</a>          
           <a href="login-page.php">Login</a>
           <a href="signup-page.php">Sign Up</a>
        </div>

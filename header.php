@@ -21,8 +21,7 @@
         /></a>
       </div>
       <class="nav-items">
-        <a href="vinyl-page.php">Vinyl</a>
-        <a href="cd-page.php">CD</a>
+        <a href="products.php">Products</a>        
         <?php
           if (isset($_SESSION["useruid"])) {
             echo "<a href='profile.php'>Profile</a>";
