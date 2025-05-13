@@ -356,6 +356,10 @@ button:hover {
   opacity: 1;
 }
 
+audio {
+  width: 200px;
+}
+
 .add-to-cart-btn,
 .ATCbutton {
   background-color: #fff;
@@ -546,7 +550,7 @@ tr:nth-child(even) {
 
 @media screen and (max-width: 875px) {
   .footer-container {
-    height: 50vh;
+    height: 70vh;
   }
 
   .footer-3 {

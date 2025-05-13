@@ -108,9 +108,10 @@
                 </div>  
            </div>  
            <br />  
-           <form method="post" action="cart.php?action=clear">
+           <form method="post" action="cart.php?action=clear" align="center">
                 <input type="submit" name="clear_cart" class="btn btn-danger" value="Buy Now!" />
            </form>
+          <br>
       </body>  
  </html>
 <?php include_once 'footer.php'; ?>
