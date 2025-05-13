@@ -28,8 +28,7 @@
             <h3>Kwon Ji Yong | CD</h3>
             <p class="product-card-price">
               <audio controls>
-                <source src="*" type="audio/ogg">
-                <source src="*" type="audio/mpeg"></p>
+                <source src="assets/preview.mp3" type="audio/mpeg"></p>
             <p>A deeply personal EP that strips away G-Dragon's stage persona, revealing themes of fame, identity, and vulnerability.</p>
           </div>
         </div>
@@ -46,8 +45,7 @@
             <h3>What Kinda Music | Vinyl</h3>
             <p class="product-card-price">
               <audio controls>
-                <source src="*" type="audio/ogg">
-                <source src="*" type="audio/mpeg"></p>
+                <source src="assets/preview2.mp3" type="audio/mpeg"></p>
             <p>A seamless fusion of jazz, electronic, and R&B, driven by Misch's smooth melodies and Dayes' intricate drumming.</p>
           </div>
         </div>
@@ -64,8 +62,7 @@
             <h3>Grace | CD</h3>
             <p class="product-card-price">
               <audio controls>
-                <source src="*" type="audio/ogg">
-                <source src="*" type="audio/mpeg"></p>
+                <source src="assets/preview3.mp3" type="audio/mpeg"></p>
             <p>A hauntingly beautiful mix of rock, folk, and blues, showcasing Buckley's soaring vocals and deep emotional intensity.</p>
           </div>
         </div>
@@ -82,8 +79,7 @@
             <h3>Remain in Light | Vinyl</h3>
             <p class="product-card-price">
               <audio controls>
-                <source src="*" type="audio/ogg">
-                <source src="*" type="audio/mpeg"></p>
+                <source src="assets/preview4.mp3" type="audio/mpeg"></p>
             <p>An innovative blend of post-punk, funk, and African rhythms, pushing the boundaries of rock music. Hypnotic grooves and layered textures.</p>
           </div>
         </div>
