@@ -9,18 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css?v=<?php echo time(); ?>">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Record Store UK</title>
   </head>
   <body>
     <nav>
-      <div class="logo">
+      <div class="logo" align="center">
         <a href="index.php"><img
           src="assets/index_assets/recordstorelogo.png"
           alt="Record Store UK"
           width="150px"
         /></a>
       </div>
-      <class="nav-items">
+      <div class="topnav" id="myTopnav">
         <a href="products.php">Products</a>        
         <?php
           if (isset($_SESSION["useruid"])) {
@@ -32,6 +33,8 @@
           }
         ?>
         <a href="cart.php">Cart</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i></a>
       </div>
     </nav>
 
